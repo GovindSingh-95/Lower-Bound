@@ -20,5 +20,13 @@
 <h2>Algorithm</h2>
 <p>
   <br>Here, as we bascially need to search a particular element.So, we are gonna use Binary Search.<br>
-  <br>So,we declare our Binary Search variables of int low=0 and int high=n-1.But,we also need to store the index for lower bound<br>
+  <br>So,we declare our Binary Search variables of int low=0 and int high=n-1.But,we also need to store the index for lower bound (let 
+   that int variable be idx),it can be given any value for initialisation,but initialise it with n.<br>
+  <br>Now,use while loop with condition of (low<=high),and declare a int mid=(high-low+low+low)/2.<br>
+  <br>Unlike Binary Search conditions,we only have one condition over here.<br>
+  <br>if (arr[mid]>=target) , then update idx with value of mid and , this condition also confirms that target is less than or equal to 
+  arr[mid],thus target is not there in the indices from mid to n-1. Thus,also update value of high , high=mid-1;<br>
+  <br>else just update low , low=mid+1;<br>
+  <br>Thus, the value of idx after this while loop is your lower bound index.<br>
+  <br>We can use the Arrays.sort() function to sort the Array , if in case the Entered Array is not in non decreasing order.<br>
 </p>
