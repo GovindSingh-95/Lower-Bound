@@ -3,7 +3,7 @@
 <p>
   <br>To find the index "idx" in the Sorted Array arr of length n ,such that arr[index]>=target.<br>Where target is user input number.<br>
 </p>
-<h2>Bases Cases</h2>
+<h2>Base Cases</h2>
 <p>
   <br>Consider a Sorted Array [10,20,20,30,40,50,60,70]<br>
   <br>with n=8<br>
